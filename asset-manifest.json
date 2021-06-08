@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/countries-callingcodes/static/js/main.67e14cc0.chunk.js",
+    "main.js.map": "/countries-callingcodes/static/js/main.67e14cc0.chunk.js.map",
+    "runtime-main.js": "/countries-callingcodes/static/js/runtime-main.9aca8712.js",
+    "runtime-main.js.map": "/countries-callingcodes/static/js/runtime-main.9aca8712.js.map",
+    "static/js/2.67894fca.chunk.js": "/countries-callingcodes/static/js/2.67894fca.chunk.js",
+    "static/js/2.67894fca.chunk.js.map": "/countries-callingcodes/static/js/2.67894fca.chunk.js.map",
+    "index.html": "/countries-callingcodes/index.html",
+    "static/js/2.67894fca.chunk.js.LICENSE.txt": "/countries-callingcodes/static/js/2.67894fca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9aca8712.js",
+    "static/js/2.67894fca.chunk.js",
+    "static/js/main.67e14cc0.chunk.js"
+  ]
+}
