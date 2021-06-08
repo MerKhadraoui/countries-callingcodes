@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 import CountryData from "./components/CountryData";
 function App() {
   const [userInput, setUserInput] = useState("");
@@ -7,6 +8,11 @@ function App() {
     e.preventDefault();
     let textUrl = encodeURIComponent(userInput);
     console.log(textUrl);
+    let endPoint = `https://restcountries.eu/rest/v2/callingcode/${textUrl}`;
+    console.log(endPoint);
+    axios(endPoint)
+      .then((res) => setResult(res.data))
+      .catch((err) => console.log(`err ${err}`));
   }
   function changeHandle(e) {
     setUserInput(e.target.value);
@@ -15,7 +21,7 @@ function App() {
     <React.Fragment>
       <form onSubmit={submitHandle}>
         <input
-          type="text"
+          type="number"
           value={userInput}
           onChange={changeHandle}
           placeholder="Enter the calling Code "
