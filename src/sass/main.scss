@@ -3,13 +3,59 @@
   padding: 0;
   background-color: blanchedalmond;
 }
-.content {
+body {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
   width: 50vw;
   height: 50vh;
   margin: 15%;
-  border: brown 2px solid;
+}
+form {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  height: 2rem;
+  box-shadow: 10px 5px 5px red;
+  button,
+  input {
+    width: 15rem;
+    border: transparent;
+    background-color: rgba(165, 42, 42, 0.336);
+  }
+  margin: 1rem;
+}
+
+.content div {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  line-height: 1.6;
+  border: rgba(165, 42, 42, 0.459) 2px solid;
+  color: brown;
+}
+.content {
+  box-shadow: 10px 5px 5px brown;
 }
 .image {
+  margin-left: 18%;
   width: 20rem;
   height: 20rem;
+  border-radius: 50%;
+  justify-content: center;
+  justify-items: center;
+  animation-name: slide;
+  animation-duration: 5s;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0.66;
+  }
+  50% {
+    opacity: 0.33;
+  }
+  100% {
+    opacity: 1;
+  }
 }

@@ -28,7 +28,7 @@ function App() {
         />
         <button type="submit">Search</button>
       </form>
-      <div>{userInput} </div>
+
       <CountryData result={result}> </CountryData>
     </React.Fragment>
   );
