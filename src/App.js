@@ -9,7 +9,7 @@ function App() {
     let textUrl = encodeURIComponent(userInput);
     console.log(textUrl);
     let endPoint = `https://restcountries.eu/rest/v2/callingcode/${textUrl}`;
-    console.log(endPoint);
+    //console.log(endPoint);
     axios(endPoint)
       .then((res) => setResult(res.data))
       .catch((err) => console.log(`err ${err}`));
