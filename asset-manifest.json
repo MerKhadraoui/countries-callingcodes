@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/countries-callingcodes/static/css/main.b12d49c8.chunk.css",
-    "main.js": "/countries-callingcodes/static/js/main.d19a7bc9.chunk.js",
-    "main.js.map": "/countries-callingcodes/static/js/main.d19a7bc9.chunk.js.map",
+    "main.css": "/countries-callingcodes/static/css/main.4050515c.chunk.css",
+    "main.js": "/countries-callingcodes/static/js/main.6c684911.chunk.js",
+    "main.js.map": "/countries-callingcodes/static/js/main.6c684911.chunk.js.map",
     "runtime-main.js": "/countries-callingcodes/static/js/runtime-main.9aca8712.js",
     "runtime-main.js.map": "/countries-callingcodes/static/js/runtime-main.9aca8712.js.map",
-    "static/js/2.15983ff5.chunk.js": "/countries-callingcodes/static/js/2.15983ff5.chunk.js",
-    "static/js/2.15983ff5.chunk.js.map": "/countries-callingcodes/static/js/2.15983ff5.chunk.js.map",
+    "static/js/2.4ee46c9b.chunk.js": "/countries-callingcodes/static/js/2.4ee46c9b.chunk.js",
+    "static/js/2.4ee46c9b.chunk.js.map": "/countries-callingcodes/static/js/2.4ee46c9b.chunk.js.map",
     "index.html": "/countries-callingcodes/index.html",
-    "static/css/main.b12d49c8.chunk.css.map": "/countries-callingcodes/static/css/main.b12d49c8.chunk.css.map",
-    "static/js/2.15983ff5.chunk.js.LICENSE.txt": "/countries-callingcodes/static/js/2.15983ff5.chunk.js.LICENSE.txt"
+    "static/css/main.4050515c.chunk.css.map": "/countries-callingcodes/static/css/main.4050515c.chunk.css.map",
+    "static/js/2.4ee46c9b.chunk.js.LICENSE.txt": "/countries-callingcodes/static/js/2.4ee46c9b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9aca8712.js",
-    "static/js/2.15983ff5.chunk.js",
-    "static/css/main.b12d49c8.chunk.css",
-    "static/js/main.d19a7bc9.chunk.js"
+    "static/js/2.4ee46c9b.chunk.js",
+    "static/css/main.4050515c.chunk.css",
+    "static/js/main.6c684911.chunk.js"
   ]
 }
