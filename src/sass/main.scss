@@ -44,16 +44,14 @@ form {
   border-radius: 50%;
   justify-content: center;
   justify-items: center;
-  animation-name: slide;
-  animation-duration: 5s;
+  animation: 3s linear 1s infinite running sliding-vertically;
 }
-
-@keyframes slide {
+@keyframes sliding-vertically {
   0% {
-    opacity: 0.66;
+    opacity: 0.33;
   }
   50% {
-    opacity: 0.33;
+    opacity: 0.66;
   }
   100% {
     opacity: 1;
