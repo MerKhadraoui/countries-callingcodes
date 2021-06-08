@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/sass/main.scss"],"names":[],"mappings":"AAAA,EACE,QAAS,CACT,SAAU,CACV,wBAAgC","file":"main.b12d49c8.chunk.css","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  background-color: blanchedalmond;\n}\n"]}

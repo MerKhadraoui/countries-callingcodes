@@ -1,2 +1,0 @@
-(this["webpackJsonpcountries-callingcodes"]=this["webpackJsonpcountries-callingcodes"]||[]).push([[0],{9:function(e,c,t){"use strict";t.r(c);var n=t(1),s=t.n(n),r=t(3),i=t.n(r),o=t(0);var a=function(){return Object(o.jsx)("div",{className:"App"})};i.a.render(Object(o.jsx)(s.a.StrictMode,{children:Object(o.jsx)(a,{})}),document.getElementById("root"))}},[[9,1,2]]]);
-//# sourceMappingURL=main.67e14cc0.chunk.js.map
