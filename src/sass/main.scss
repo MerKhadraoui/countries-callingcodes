@@ -1,12 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: blanchedalmond;
+  background-color: rgb(67, 67, 73);
 }
 body {
   display: flex;
   justify-content: center;
   justify-items: center;
+
   width: 50vw;
   height: 50vh;
   margin: 15%;
@@ -16,26 +17,38 @@ form {
   justify-content: center;
   justify-items: center;
   height: 2rem;
-  box-shadow: 10px 5px 5px red;
+  box-shadow: 10px 5px 5px rgb(158, 27, 27);
   button,
   input {
+    padding-left: 10%;
+    color: whitesmoke;
     width: 15rem;
     border: transparent;
     background-color: rgba(165, 42, 42, 0.336);
   }
   margin: 1rem;
 }
-
 .content div {
   display: flex;
   justify-content: center;
   justify-items: center;
   line-height: 1.6;
   border: rgba(165, 42, 42, 0.459) 2px solid;
-  color: brown;
+  color: rgb(211, 203, 203);
 }
 .content {
-  box-shadow: 10px 5px 5px brown;
+  box-shadow: 10px 5px 5px rgb(158, 27, 27);
+  border: 1px brown solid;
+}
+.bordor button {
+  background-color: yellow;
+  height: 2rem;
+  width: 3rem;
+}
+.lang {
+  background-color: yellow;
+  height: 2rem;
+  width: 15rem;
 }
 .image {
   margin-left: 18%;

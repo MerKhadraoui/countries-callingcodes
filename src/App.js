@@ -4,15 +4,18 @@ import CountryData from "./components/CountryData";
 function App() {
   const [userInput, setUserInput] = useState("");
   const [result, setResult] = useState([]);
-  function submitHandle(e) {
-    e.preventDefault();
-    let textUrl = encodeURIComponent(userInput);
+  const getCountry = (status, callCod) => {
+    let textUrl = encodeURIComponent(callCod);
     console.log(textUrl);
-    let endPoint = `https://restcountries.eu/rest/v2/callingcode/${textUrl}`;
+    let endPoint = `https://restcountries.eu/rest/v2/${status}/${textUrl}`;
     //console.log(endPoint);
     axios(endPoint)
       .then((res) => setResult(res.data))
       .catch((err) => console.log(`err ${err}`));
+  };
+  function submitHandle(e) {
+    e.preventDefault();
+    getCountry("callingcode", userInput);
   }
   function changeHandle(e) {
     setUserInput(e.target.value);
@@ -29,7 +32,7 @@ function App() {
         <button type="submit">Search</button>
       </form>
 
-      <CountryData result={result}> </CountryData>
+      <CountryData result={result} getCountry={getCountry}></CountryData>
     </React.Fragment>
   );
 }
