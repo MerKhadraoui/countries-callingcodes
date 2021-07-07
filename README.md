@@ -1,7 +1,7 @@
 
 ![Screenshot from 2021-07-07 08-28-03](https://user-images.githubusercontent.com/75792175/124710648-5a6b3680-defd-11eb-9d25-c89ada64b245.png)
 ## my countries-callingcodes App: 
-https://github.com/MerKhadraoui/countries-callingcodes
+https://merkhadraoui.github.io/countries-callingcodes/
 
 
 ## Table of contents:
