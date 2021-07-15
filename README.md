@@ -18,7 +18,7 @@ Country calling codes or country dial-in codes are telephone number prefixes for
 ## Technologies:
 
 - `React`
-- `nod.js`
+- `npm`
 - `Scss`
 - `Javascript`
 
